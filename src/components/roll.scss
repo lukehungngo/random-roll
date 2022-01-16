@@ -1,0 +1,42 @@
+@import '../assets/colors';
+@import '../assets/measures';
+@import '../assets/styles';
+
+
+.roll-input-container {
+    padding-top: $paddingHuge;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roll-input-label {
+    color: $textColor;
+    text-align: center;
+    margin-top: $marginHuge;
+}
+
+.roll-result-container {
+    padding: $paddingMedium;
+    margin: $marginMedium;
+    border-radius: $borderRadiusMedium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roll-result-content {
+    font-size: $textLarge;
+    background-color: $lightGray;
+    color: $textColor;
+    padding: $paddingMedium;
+    border-radius: $borderRadiusMedium;
+    width: 15vw;
+}
+
+
+.input-group.form-control{
+    width: 40vw;
+}

@@ -1,0 +1,11 @@
+@import '../assets/colors';
+@import '../assets/measures';
+@import '../assets/styles';
+
+.header-text {
+    margin-top: 0;
+    margin-bottom: $marginMedium;
+    padding: $paddingHuge;
+    color: $white;
+    text-align: center;
+}

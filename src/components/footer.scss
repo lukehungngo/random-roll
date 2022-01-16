@@ -1,0 +1,15 @@
+@import '../assets/colors';
+@import '../assets/measures';
+@import '../assets/styles';
+
+.footer-text {
+    color: $textColor;
+    text-align: left;
+}
+
+.footer-trademark {
+    margin-bottom: $marginHuge;
+    margin-top: $marginHuge;
+    color: $textColor;
+    text-align: center;
+}

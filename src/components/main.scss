@@ -1,0 +1,31 @@
+@import '../assets/colors';
+@import '../assets/measures';
+@import '../assets/styles';
+
+.header-container{
+    background-color: $lightBlack;
+}
+.body-container{
+    padding-top: $paddingMedium;
+    padding-bottom: $paddingMedium;
+    padding-left: $paddingHuge;
+    padding-right: $paddingHuge;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundLightgrey;
+}
+
+.body-board-container{
+    padding-top: $paddingHuge;
+    padding-bottom: $paddingHuge;
+    padding-left: $paddingHuge;
+    padding-right: $paddingHuge;
+    background-color: $white;
+}
+
+.footer-container{
+    padding-left: $paddingHuge;
+    padding-right: $paddingHuge;
+    margin-top: $marginHuge;
+    background-color: $white;
+}
