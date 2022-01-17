@@ -13,7 +13,7 @@ function Roll() {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (name !== "") {
-            let random = getRandomInt(200000)
+            let random = getRandomInt(1000000)
             setRandom(random)
             console.log(name, random)
             writeUserData(name, random)
